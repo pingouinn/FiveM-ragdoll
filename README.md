@@ -1,5 +1,5 @@
 # FiveM-ragdoll
-A simple resource to ragdoll with your ped on FiveM
+A simple resource to ragdoll with your ped on FiveM, with animations
 
 All credits to myself.
 Please dont reupload or sell this. 

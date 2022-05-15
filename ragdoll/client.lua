@@ -27,7 +27,6 @@ end
 Citizen.CreateThread(function()
 	while true do
 		ped = PlayerPedId()
-
 		if IsControlJustPressed(0, cfg.key) then
 			ragdoll()
 		end

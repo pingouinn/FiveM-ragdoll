@@ -32,10 +32,9 @@ function ragdoll()
 	local ped = PlayerPedId()
 	if not CanPedRagdoll(ped) or IsEntityDead(ped) or IsPedInAnyVehicle(ped,false) then 
 		ragdoll = false 
-		return 
-	else 
-		Ragdoll = not Ragdoll 
+		return  
 	end 
+	Ragdoll = not Ragdoll 
 
 	if Ragdoll then
 		ShakeGameplayCam(config.cameraEffect, 1.0)
@@ -64,7 +63,7 @@ function ragdoll()
 			TaskPlayAnim(ped,"move_m@drunk@moderatedrunk","idle",1.0,1.0,config.DrunkCooldown,1,0,false,false,false)
 		end 
 	end 
-	RemoveAnimDict(config.UpAnim)
-	RemoveAnimDict(config.UpAnim)
+	RemoveAnimDict(config.UpAnimDict)
+	RemoveAnimDict(config.fallAnimDict)
 end
 

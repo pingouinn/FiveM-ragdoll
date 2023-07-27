@@ -2,13 +2,13 @@ fx_version 'bodacious'
 game 'gta5'
 lua54 'yes'
 
-author 'Pingouin#8843'
+author 'pingouinthedev & hysteryx.'
 description 'Ragdoll script for FiveM'
-version '1.0.0'
+version '1.0.2'
 
 -- Client
 
 client_scripts { 
-    'client.lua',
     'config.lua',
+    'client.lua'
 }
